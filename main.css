@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+
+body {
+    background-color: rgb(221, 212, 87);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100px;  
+    background: url("asasa/naranja2.svg") repeat-x top, url("asasa/naranja2.svg") repeat-x top right repeat;
+    font-family: sans-serif  
+}
+header {
+    background-color: rgb(228, 96, 48);
+    text-shadow: gray 1px 6px;
+    font-size: 200%;
+  font-weight: bold;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font: oblique bold 175% cursive;
+  font-family: cursive
+  
+  
+}
+
+nav{
+    padding: 2px 50px;
+      background-color: hsl(59, 95%, 50%);
+      border: red 5px solid;
+      color: orange;
+      text-align: center;
+      margin-top: 0%;
+      
+  }
+
+  a{
+    padding: 4%;
+    font-size: 15px;
+    margin-top: 
+    
+  }
+/* A partir de aquí, diseñaremos los parrafos y la lista final */
+  p#tata1 {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 60%;
+    height: 30%;
+    z-index: 2;
+    border: hsl(0, 69%, 48%) 4px solid;
+    background-color: rgb(228, 96, 48);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    float: left;
+    color: red;
+    background: url("asasa/naranja.png") no-repeat bottom right, url("asasa/naranja.png") no-repeat bottom left, url("asasa/naranja.png") repeat-y, url("asasa/naranja.png") repeat-y right;
+    background-size: 5%
+    
+  }
+  
+
+  p#tata2 {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    width: 60%;
+    height: 25%;
+    border: hsl(165, 62%, 37%) 4px solid;
+    background-color: rgb(251, 251, 112);
+    text-align: left;
+    padding: 10px;
+    font-size: 1.5rem;
+    float: left;
+    color:  rgb(206, 206, 60)
+  }
+  
+  p#tata3 {
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    width: 40%;
+    height: 25%;
+    border: hsl(187, 53%, 50%) 4px solid;
+    background-color: hsl(204, 100%, 91%);
+    text-align: right;
+    padding: 10px;
+    font-size: 1.5rem;
+    float: left;
+    color: orange
+  }
+
+  p:hover {
+    z-index: 3;
+  }
+
+
+
+
+  ul{
+    position: absolute;
+    bottom: 1%;
+    width: 105%;
+    background-color: hsl(19, 74%, 59%);
+    color: darkblue;
+    height: 11%
+  }
+
+  p#tata4 {
+
+    bottom: -1%;
+    position: absolute;
+    text-align: center;
+    width: 105%;
+    background-color: yellow;
+    height: 25
+  }
+
+  /* Página hecha por Pedro Jiménez */
