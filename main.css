@@ -55,7 +55,8 @@ nav{
     float: left;
     color: red;
     background: url("asasa/naranja.png") no-repeat bottom right, url("asasa/naranja.png") no-repeat bottom left, url("asasa/naranja.png") repeat-y, url("asasa/naranja.png") repeat-y right;
-    background-size: 5%
+    background-size: 5%;
+    text-decoration-line: underline
     
   }
   
